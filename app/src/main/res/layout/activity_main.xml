@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="16dp"
+        android:src="@drawable/day"
+        android:layout_height="16dp"/>
+
+    <TextView
+        android:layout_width="96sp"
+        android:layout_height="16sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/red"
+        android:text="TUES 20 0CT" />
+
+</LinearLayout>
+        <TextView
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:text="Hi,Nguyễn Thị Hằng" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:background="@drawable/bg_card">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="More" />
+<LinearLayout
+    android:id="@+id/lineLeft"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avatar"/>
+
+    <ImageView
+        android:layout_marginTop="-15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oval"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/lineLeft"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="24dp"
+                android:fontFamily="@font/gilroy"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:text="Health Score" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_light"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:text="Weight: 42 kg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_light"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:text="Height: 1.65m" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_light"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:text="Age: 23" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_light"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:text="Body Status:Thin" />
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
